@@ -1,0 +1,20 @@
+{
+  "short_name": "Inzu",
+  "name": "Inzu Property Rental Platform",
+  "icons": [
+    {
+      "src": "icon-192x192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "icon-512x512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#C86A4A",
+  "background_color": "#ffffff"
+}

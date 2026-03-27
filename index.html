@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- PWA Meta Tags -->
+  <meta name="theme-color" content="#FF385C" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Inzu" />
+  <link rel="apple-touch-icon" href="/icon-192x192.svg" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Simple living, redefined. Find curated minimalistic homes and modern spaces with Inzu." />
+  <meta name="keywords" content="real estate, property, minimalism, inzu, house, apartment" />
+  <meta name="author" content="Inzu" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Inzu - Simple Living Redefined" />
+  <meta property="og:description" content="Curated minimalistic homes and modern living spaces." />
+  <meta property="og:type" content="website" />
+
+  <title>Inzu - Simple Living Redefined</title>
+  
+  <!-- Force Light Theme Script -->
+  <script>
+    // Force light theme immediately before React loads
+    localStorage.setItem('inzu_theme', 'light');
+    document.documentElement.setAttribute('data-theme', 'light');
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
